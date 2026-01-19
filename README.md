@@ -1,5 +1,5 @@
 
-<img width="1536" height="1024" alt="project_idea" src="https://github.com/user-attachments/assets/b56d992e-f0e8-408b-b5b2-bf3cbe1b9f45" />
+<img width="1536" height="1024" alt="project_idea_image" src="https://github.com/user-attachments/assets/45b814dd-4b83-41cb-9706-1e213f430ceb" />
 
 ## Smart Greenhouse Controller
 Intoducing the **"Smart Greenhouse"**: an Arduino based system designed to automatically monitor environmental conditions of a greenhouse and react accordingly. 
