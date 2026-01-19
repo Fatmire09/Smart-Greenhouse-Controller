@@ -36,7 +36,6 @@ The following components are required:
     
 ### Software Requirements
 - Arduino IDE
-- Arduino AVR board package
 
 Required libraries:
 - Liquid Crystal
