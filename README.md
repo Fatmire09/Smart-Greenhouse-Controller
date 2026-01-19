@@ -144,7 +144,7 @@ The use of two different thershold is needed to prevent rapid oscilalations and 
 The RGB led turns blue while the pump is running.
 
 #### Automatic Ventilation
-The stepper motor controls the greenhouse door allowing proper ventilation and stabilization fo temperatures.
+The stepper motor controls the greenhouse door allowing proper ventilation and stabilization of temperatures.
 When the temperature rises above 25°C the door opens, when it goes below 15°C the door closes.
 
 The RGB led turns green when the stepper motor is in action.
