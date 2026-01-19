@@ -51,7 +51,7 @@ Installing libraries:
   5. Repeat process for the other libraries.
   
 ## Project Layout
-
+```
 Smart-Greenhouse/
 │
 ├── src/
@@ -79,7 +79,7 @@ Smart-Greenhouse/
 │
 └── README.md
 
-
+```
 
 ## Hardware Setup and Wiring
 <img width="1317" height="617" alt="Smooth Krunk-Tumelo" src="https://github.com/user-attachments/assets/f031d421-fb16-4c19-bc4d-482051b9397c" />
