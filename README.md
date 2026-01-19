@@ -44,6 +44,9 @@ Required libraries:
 - Liquid Crystal
 - Stepper
 - dht_nonblocking
+
+Installing libraries:
+  
   
 ## Project Layout
 
@@ -76,20 +79,17 @@ Smart-Greenhouse/
 <img width="1317" height="617" alt="Smooth Krunk-Tumelo" src="https://github.com/user-attachments/assets/f031d421-fb16-4c19-bc4d-482051b9397c" />
 
 
-The system is built around an Arduino Uno, which acts as the central controller for all sensors and actuators. All components are mounted on a breadboard to allow easy prototyping and testing.
+The system is built around an Arduino Uno, which acts as the central controller for all sensors. All components are mounted on a breadboard.
 
 
-The **soil moisture sensor** is connected to the Arduino using three wires: VCC and GND provide power, while the analog output is connected to analog pin A0. This sensor continuously measures soil humidity and provides raw analog values that are later converted into percentage values by the software.
+The **soil moisture sensor** is connected to the Arduino using three wires: VCC and GND provide power, while the analog output is connected to analog pin A0. This sensor continuously measures soil humidity and provides analog values that are later converted into percentage values by the software.
 
 
 A **DHT11 temperature and humidity sensor** is connected to a digital pin 2 and powered directly from the Arduino. This sensor is used to monitor the internal greenhouse environment and provides both temperature and humidity readings.
 
+An **NTC thermistor** is used to measure the external temperature. It is wired in a voltage divider configuration with a fixed resistor (10kΩ) and connected to analog pin A1. 
 
-An **NTC thermistor** is used to measure the external temperature. It is wired in a voltage divider configuration with a fixed resistor (10kΩ) and connected to analog pin A1. The Arduino calculates the temperature using the *Steinhart–Hart equation*.
-
-
-The **irrigation system** is controlled through a relay module. The relay input pin is connected to digital pin 4, while the relay contacts control the power supplied to the water pump. The relay is configured in an active-low mode to ensure safe default behavior when the system is powered on.
-
+The **irrigation system** is controlled through a relay module. The relay input pin is connected to digital pin 4, while the relay contacts control the power supplied to the water pump. 
 
 A **16x2 LCD display** is connected using digital pins 8 to 13. A potentiometer is used to adjust the display contrast. The LCD provides real time feedback to the user, showing temperature, humidity, soil moisture, and pump status across different screens.
 
@@ -105,14 +105,7 @@ The greenhouse "ventilation mechanism" is implemented using a **stepper moto**r 
 
 A complete wiring diagram is shown in the image above and reflects the actual prototype used during development and testing.
 ## Build and Upload Instructions
-First, connect all hardware components according to the wiring diagram.
-Make sure that the pump and stepper motor are powered correctly and share a common ground with the Arduino.
-Open the Arduino IDE and install all required libraries.
-Open the file SmartGreenhouse.ino from the src folder.
-Select the correct board from the Tools menu.
-Click Upload to burn the firmware onto the Arduino.
-Once uploaded, the system will automatically start.
-After a short startup delay, the LCD will display live sensor data and the system will begin operating autonomously.
+
 ## User Guide
 
 ## Video and Presenation
