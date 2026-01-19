@@ -2,7 +2,7 @@
 <img width="1536" height="1024" alt="project_idea" src="https://github.com/user-attachments/assets/b56d992e-f0e8-408b-b5b2-bf3cbe1b9f45" />
 
 ## Smart Greenhouse Controller
-Intoducing the "Smart Greenhouse": an Arduino based system designed to automatically monitor environmental conditions and react accordingly. 
+Intoducing the **"Smart Greenhouse"**: an Arduino based system designed to automatically monitor environmental conditions of a greenhouse and react accordingly. 
 
 It controls irrigation, ventilation and user feedback by combining soil moisture sensing, temperature and humidity monitoring, a water pump, a stepper driven greenhouse door, an LCD display and RGB LED indicators.
 
@@ -129,7 +129,7 @@ After powering up the project, the system waits 2 seconds and the greenhouse ent
       - reads the soil moisture
       - controls the water oump
       - monitors temperature and humidity
-      - oepns/closes the greenhouse door automatically
+      - opens/closes the greenhouse door automatically
       - updates the LCD display.
 ### Overview
 #### LCD screens
@@ -142,7 +142,7 @@ To switch between screens, the button has to be pressed:
 The pump turns ON when the soil moisture drops below 10% and it turns OFF when the moisture rises above 55%.
 The use of two different thershold is needed to prevent rapid oscilalations and ensure a stable system behavior, although they can be customized according to the preferred moisture level of the soil.
 
-The RGB led turn blue while the pump is running.
+The RGB led turns blue while the pump is running.
 
 #### Automatic Ventilation
 The stepper motor controls the greenhouse door allowing proper ventilation and stabilization fo temperatures.
@@ -150,7 +150,7 @@ When the temperature rises above 25°C the door opens, when it goes below 15°C 
 
 The RGB led turns green when the stepper motor is in action.
 
-The led turn red when both pump and motor are running.
+The led turns red when both pump and motor are running.
 
 ## Video and Presenation
 Project presentation: 
