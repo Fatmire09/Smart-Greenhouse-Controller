@@ -33,7 +33,8 @@ The following components are required:
   - NTC temperature sensor (thermistor)
   - RGB LED
   - Push button
-  - Resistors, jump wires, breadboard
+  - 1 x 10kΩ resistor and 3 x 220Ω resistors
+  - jump wires, breadboard
     
 ### Software Requirements
 - Arduino IDE
@@ -43,18 +44,32 @@ Required libraries:
 - Liquid Crystal
 - Stepper
 - dht_nonblocking
-All libraries are open-source and available through the Arduino Library Manager or their official repositories.
-
+  
 ## Project Layout
-The project is organized to keep code and documentation clean and easy to understand.
+```text
+Smart-Greenhouse/
+│
+├── src/
+│   └── smart_greenhouse.ino
+│
+├── libraries/
+│   ├── DHT_nonblocking/
+│   ├── LiquidCrystal/
+│   └── Stepper/
+│
+├── docs/
+│   ├── Smart_Greenhouse_Presentation.pptx
+│   └── system_description.pdf
+│
+├── media/
+│   ├── wiring_diagram.png
+│   ├── greenhouse_render.png
+│   └── prototype_photo.jpg
+│
+└── README.md
+```
 
-The src folder contains the main Arduino sketch that implements all the system logic.
 
-The presentation folder contains the editable PowerPoint used for the project presentation.
-
-The code itself is structured into functional blocks, including sensor reading, pump control, greenhouse control, LCD management, and user input handling.
-
-All time-critical operations are implemented using non-blocking techniques based on millis().
 
 ## Hardware Setup and Wiring
 <img width="1317" height="617" alt="Smooth Krunk-Tumelo" src="https://github.com/user-attachments/assets/f031d421-fb16-4c19-bc4d-482051b9397c" />
