@@ -151,7 +151,7 @@ The RGB led turns green when the stepper motor is in action.
 
 The led turns red when both pump and motor are running.
 
-## Video and Presenation
+## Video and Presentation
 Project presentation: 
 
 Project demonstration video:
