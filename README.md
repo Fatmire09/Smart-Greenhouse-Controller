@@ -118,8 +118,7 @@ A complete wiring diagram is shown in the image above and reflects the actual pr
 1. Open the Arduino IDE
 2. Go to File -> New Sketch and paste the project code
 3. Select your board: Tools -> Board -> Arduino Uno
-4. Select the correct port: Tools -> Port
-5. Click Upload.
+4. Click Upload.
 If everything is wired correctly, the LCD display will show *"Starting..."*.
 
 ### Running the Project
@@ -158,7 +157,10 @@ Project presentation:
 Project demonstration video:
 
 ## Team Members
-Francesca Bassi, Alice Bortolotti, Fatmire Emush, Alessia Giunta.
+Francesca Bassi: francesca.bassi-1@studenti.unitn.it
+Alice Bortolotti: alice.bortolotti-1@studenti.unitn.it
+Fatmire Emush: fatmire.emush@studenti.unitn.it
+Alessia Giunta: alessia.giunta@studenti.unitn.it
 
 Each member actively participated in the development and testing phases of the project.
 
