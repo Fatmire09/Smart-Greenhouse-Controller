@@ -46,6 +46,7 @@ Required libraries:
 - dht_nonblocking
   
 ## Project Layout
+
 ```text
 Smart-Greenhouse/
 │
@@ -53,22 +54,31 @@ Smart-Greenhouse/
 │   └── smart_greenhouse.ino
 │
 ├── libraries/
-│   ├── DHT_nonblocking/
+│   ├── DHT/
+│   │   ├── dht_nonblocking.h
+│   │   ├── dht_nonblocking.cpp
+│   │   └── README.md
+│   │
 │   ├── LiquidCrystal/
+│   │   ├── LiquidCrystal.h
+│   │   ├── LiquidCrystal.cpp
+│   │   └── README.md
+│   │
 │   └── Stepper/
+│       ├── Stepper.h
+│       ├── Stepper.cpp
+│       └── README.md
 │
 ├── docs/
-│   ├── Smart_Greenhouse_Presentation.pptx
-│   └── system_description.pdf
+│   └── Smart_Greenhouse_Presentation.pptx
 │
-├── media/
+├── images/
 │   ├── wiring_diagram.png
-│   ├── greenhouse_render.png
 │   └── prototype_photo.jpg
 │
 └── README.md
-```
 
+```
 
 
 ## Hardware Setup and Wiring
