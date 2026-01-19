@@ -158,8 +158,11 @@ Project demonstration video:
 
 ## Team Members
 Francesca Bassi: francesca.bassi-1@studenti.unitn.it
+
 Alice Bortolotti: alice.bortolotti-1@studenti.unitn.it
+
 Fatmire Emush: fatmire.emush@studenti.unitn.it
+
 Alessia Giunta: alessia.giunta@studenti.unitn.it
 
 Each member actively participated in the development and testing phases of the project.
