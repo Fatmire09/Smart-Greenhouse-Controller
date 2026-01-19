@@ -52,21 +52,26 @@ Installing libraries:
   
 ## Project Layout
 
-```text
 Smart-Greenhouse/
 │
 ├── src/
-│   └── smart_greenhouse.ino
+│   └── Smart_greenhouse.ino
 │
 ├── libraries/
 │   ├── DHT/
-│   
+│   │   ├── DHT.zip
+│   │   └── README.md
+│   │
 │   ├── LiquidCrystal/
+│   │   ├── LiquidCrystal.zip
+│   │   └── README.md
 │   │
 │   └── Stepper/
+│       ├── Stepper.zip
+│       └── README.md
 │
 ├── docs/
-│   └── Smart_Greenhouse_Presentation.pptx
+│   └── presentazione.pptx
 │
 ├── images/
 │   ├── wiring_diagram.png
@@ -74,7 +79,6 @@ Smart-Greenhouse/
 │
 └── README.md
 
-```
 
 
 ## Hardware Setup and Wiring
