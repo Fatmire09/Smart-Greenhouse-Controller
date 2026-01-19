@@ -55,19 +55,10 @@ Smart-Greenhouse/
 │
 ├── libraries/
 │   ├── DHT/
-│   │   ├── dht_nonblocking.h
-│   │   ├── dht_nonblocking.cpp
-│   │   └── README.md
 │   │
 │   ├── LiquidCrystal/
-│   │   ├── LiquidCrystal.h
-│   │   ├── LiquidCrystal.cpp
-│   │   └── README.md
 │   │
 │   └── Stepper/
-│       ├── Stepper.h
-│       ├── Stepper.cpp
-│       └── README.md
 │
 ├── docs/
 │   └── Smart_Greenhouse_Presentation.pptx
