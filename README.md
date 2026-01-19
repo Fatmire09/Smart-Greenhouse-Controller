@@ -77,7 +77,6 @@ Smart-Greenhouse/
 │   ├── wiring_diagram.png
 │   └── prototype_photo1.jpeg
 │   └── prototype_photo2.jpeg
-│   └── prototype_photo3.jpeg
 │
 └── README.md
 
