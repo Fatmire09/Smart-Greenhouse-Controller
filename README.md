@@ -24,7 +24,7 @@ The following components are required:
   - Arduino Uno
   - Soil moisture sensor
   - DHT11 temperature and humidity sensor
-  - 16x2 LCD display (parallel interfce)
+  - 16x2 LCD display (parallel interface)
   - Relay module
   - Water pump
   - 28BYJ-48 stepper motor with ULN2003 driver
@@ -43,7 +43,7 @@ Required libraries:
 - dht_nonblocking
 
 Installing libraries:
-  1. Insall the .zip files of the libraries from the libraries folder in this repository
+  1. Install the .zip files of the libraries from the libraries folder in this repository
   2. Open Arduino IDE
   3. Go to Sketch -> Include Library -> Add .ZIP library
   4. Select the previously downloaded file
@@ -91,7 +91,7 @@ The system is built around an Arduino Uno, which acts as the central controller 
 The **soil moisture sensor** is connected to the Arduino using three wires: VCC and GND provide power, while the analog output is connected to analog pin A0. This sensor continuously measures soil humidity and provides analog values that are later converted into percentage values by the software.
 
 
-A **DHT11 temperature and humidity sensor** is connected to a digital pin 2 and powered directly from the Arduino. This sensor is used to monitor the internal greenhouse environment and provides both temperature and humidity readings.
+A **DHT11 temperature and humidity sensor** is connected to digital pin 2 and powered directly from the Arduino. This sensor is used to monitor the internal greenhouse environment and provides both temperature and humidity readings.
 
 
 An **NTC thermistor** is used to measure the external temperature. It is wired in a voltage divider configuration with a fixed resistor (10kΩ) and connected to analog pin A1. 
@@ -104,10 +104,10 @@ A **16x2 LCD display** is connected using digital pins 8 to 13. A potentiometer 
 A **push button** connected to digital pin 3 allows the user to switch between LCD screens.
 
 
-An **RGB LED** is connected to digital pins 5 (red), 6 (green), and 7(blue) and is used as a visual indicator for system status, such as pump activity and greenhouse door movement.
+An **RGB LED** is connected to digital pins 5 (red), 6 (green), and 7 (blue) and is used as a visual indicator for system status, such as pump activity and greenhouse door movement.
 
 
-The greenhouse "ventilation mechanism" is implemented using a **stepper motor** driven through a ULN2003 driver board. The stepper motor is connected to analog pins A2 to A5 and is used to open or close the greenhouse door automatically based on the internal temperature.
+The greenhouse "ventilation mechanism" is implemented using a **stepper motor** driven through a **ULN2003 driver board**. The stepper motor is connected to analog pins A2 to A5 and is used to open or close the greenhouse door automatically based on the internal temperature.
 
 <img width="317" height="355" alt="Screenshot 2026-01-19 at 11 07 12" src="https://github.com/user-attachments/assets/231be011-e119-4f36-acd0-44403c306819" />
 
@@ -126,7 +126,7 @@ After powering up the project, the system waits 2 seconds and the greenhouse ent
   - sensors start updating without blocking the main loop
   - the system continuously:
       - reads the soil moisture
-      - controls the water oump
+      - controls the water pump
       - monitors temperature and humidity
       - opens/closes the greenhouse door automatically
       - updates the LCD display.
@@ -139,7 +139,7 @@ To switch between screens, the button has to be pressed:
 
 #### Automatic Irrigation
 The pump turns ON when the soil moisture drops below 10% and it turns OFF when the moisture rises above 55%.
-The use of two different thershold is needed to prevent rapid oscilalations and ensure a stable system behavior, although they can be customized according to the preferred moisture level of the soil.
+The use of two different threshold is needed to prevent rapid oscillations and ensure a stable system behavior, although they can be customized according to the preferred moisture level of the soil.
 
 The RGB led turns blue while the pump is running.
 
@@ -152,9 +152,9 @@ The RGB led turns green when the stepper motor is in action.
 The led turns red when both pump and motor are running.
 
 ## Video and Presentation
-Project presentation: 
+Project presentation: [Click here]()
 
-Project demonstration video:
+Project demonstration video: [Click here to watch](https://www.youtube.com/watch?v=-pMyexauiJs&pp=0gcJCYcKAYcqIYzv)
 
 ## Team Members
 Francesca Bassi: francesca.bassi-1@studenti.unitn.it
