@@ -70,7 +70,8 @@ Smart-Greenhouse/
 │       └── README.md
 │
 ├── docs/
-│   └── presentazione.pptx
+│   ├── Smart_Greenhouse_presentation.pdf
+│   └── 3D_model.pdf
 │
 ├── images/
 │   ├── wiring_diagram.png
@@ -151,8 +152,14 @@ The RGB led turns green when the stepper motor is in action.
 
 The led turns red when both pump and motor are running.
 
+### 3D Modeling and Prototyping
+During the development of the project, a simple 3D model of the greenhouse was created to help with the design and prototyping phase.  
+The main goal of this model was to better understand the overall structure, check the dimensions, and test the movement of the automated door.  
+
+For more information regarding the design of the model, click [here](docs/3D_model.pdf).
+
 ## Video and Presentation
-Project presentation: [Click here]()
+Project presentation: [Click here](docs/Smart_Greenhouse_presentation.pdf)
 
 Project demonstration video: [Click here to watch](https://www.youtube.com/watch?v=-pMyexauiJs&pp=0gcJCYcKAYcqIYzv)
 
