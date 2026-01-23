@@ -160,7 +160,7 @@ The main goal of this model was to better understand the overall structure, chec
 For more information regarding the design of the model, click [here](docs/3D_model.pdf).
 
 ## Video and Presentation
-Project presentation: [Click here](docs/Smart_Greenhouse_presentation.pdf)
+Project presentation: [Click here]([docs/Smart_Greenhouse_presentation.pdf](https://www.canva.com/design/DAG9WS641Aw/yygMih2lZ9pTCC9QJH7fxw/edit?utm_content=DAG9WS641Aw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 
 Project demonstration video: [Click here to watch](https://www.youtube.com/watch?v=-pMyexauiJs&pp=0gcJCYcKAYcqIYzv)
 
