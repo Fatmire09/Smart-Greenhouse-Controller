@@ -133,8 +133,7 @@ int handleSoilAndPump() {
   int soilRaw;
 
   if (readSoilAverage(soilRaw)) {
-    int moisture = soilToPercent(soilRaw);
-    lastMoisture = moisture;
+    lastMoisture = soilToPercent(soilRaw);
 
     if (!pumpState && moisture < PUMP_ON_THRESHOLD) {
       pumpState = true;
