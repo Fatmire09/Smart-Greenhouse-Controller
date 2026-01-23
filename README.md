@@ -54,7 +54,7 @@ Installing libraries:
 Smart-Greenhouse/
 │
 ├── src/
-│   └── Smart_greenhouse.ino
+│   └── project_code.ino
 │
 ├── libraries/
 │   ├── DHT/
