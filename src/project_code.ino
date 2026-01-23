@@ -233,6 +233,7 @@ void updateLCD(int moisture, float temperature, float humidity, bool dhtReady) {
 
     case 3:
       int tempReading = analogRead(tempPin);
+      //Convert thermistor reading to Kelvin using Steinhart-Hart equation
       double tempK = log(10000.0 * (1024.0 / tempReading - 1));
       tempK = 1 / (0.001129148 +
                   (0.000234125 +
