@@ -192,7 +192,7 @@ void handleGreenhouse(float temperature) {
     }
 
     Serial.println("CLOSING GREENHOUSE");
-    stepper.step(STEPS_115);
+    stepper.step(STEPS_120);
     doorOpen = false;
   }
 }
