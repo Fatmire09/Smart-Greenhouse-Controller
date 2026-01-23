@@ -8,6 +8,9 @@ It controls irrigation, ventilation and user feedback by combining soil moisture
 
 The goal of the project is to demonstrate how embedded systems can be used to automate real world agricultural processes using a combination of sensors and non-blocking logic.
 
+Our prototype:
+![photo1](https://github.com/user-attachments/assets/d7b08886-8e4a-41ba-9c24-a4be120fb22e)
+
 ## Index  
 1. [Requirements](#requirements)  
 2. [Project Layout](#project-layout)
