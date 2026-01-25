@@ -135,11 +135,11 @@ int handleSoilAndPump() {
   if (readSoilAverage(soilRaw)) {
     lastMoisture = soilToPercent(soilRaw);
 
-    if (!pumpState && moisture < PUMP_ON_THRESHOLD) {
+    if (!pumpState && lastMoisture < PUMP_ON_THRESHOLD) {
       pumpState = true;
       digitalWrite(relayPin, LOW);
     } 
-    else if (pumpState && moisture > PUMP_OFF_THRESHOLD) {
+    else if (pumpState && lastMoisture > PUMP_OFF_THRESHOLD) {
       pumpState = false;
       digitalWrite(relayPin, HIGH);
     }
